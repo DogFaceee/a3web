@@ -13,7 +13,7 @@
 #### Javascript
 - Finished by Carm Espinal, Kacy Hyndman, Tanvir Khan, Peggy Wong before Dec 03, 2021
 
-### Employee Pages - Carm Espinal
+### Employee Page - Carm Espinal
 #### HTML
 - Drafted by Carm Espinal before Nov 16, 2021
 - Finished by Carm Espinal, Kacy Hyndman, Tanvir Khan, Peggy Wong before Nov 18, 2021
@@ -24,7 +24,7 @@
 - Including employee information, profile picture, and links
 - Finished by Carm Espinal before Nov 19, 2021
 
-### Employee Pages - Kacy Hyndman
+### Employee Page - Kacy Hyndman
 #### HTML
 - Drafted by Carm Espinal before Nov 16, 2021
 - Finished by Carm Espinal, Kacy Hyndman, Tanvir Khan, Peggy Wong before Nov 18, 2021
@@ -35,7 +35,7 @@
 - Including employee information, profile picture, and links
 - Finished by Kacy Hyndman before Nov 19, 2021
 
-### Employee Pages - Tanvir Khan
+### Employee Page - Tanvir Khan
 #### HTML
 - Drafted by Carm Espinal before Nov 16, 2021
 - Finished by Carm Espinal, Kacy Hyndman, Tanvir Khan, Peggy Wong before Nov 18, 2021
@@ -46,7 +46,7 @@
 - Including employee information, profile picture, and links
 - Finished by Tanvir Khan before Nov 19, 2021
 
-### Employee Pages - Peggy Wong
+### Employee Page - Peggy Wong
 #### HTML
 - Drafted by Carm Espinal before Nov 16, 2021
 - Finished by Carm Espinal, Kacy Hyndman, Tanvir Khan, Peggy Wong before Nov 18, 2021
@@ -92,27 +92,27 @@
 
 # GEOM 103 Assignment 3 Time Line
 
-### Nov 12, 2021
+#### Nov 12, 2021
 Group Meeting for Group Plan and Workload Distribution (03:15PM)
 
-### Nov 16, 2021
+#### Nov 16, 2021
 HTML Template Draft Due before 08:00 PM
 Group Meeting for HTML and CSS Templates (08:00 PM)
 
-### Nov 17, 2021
+#### Nov 17, 2021
 CSS Template Draft Due
 
-### Nov 18, 2021
+#### Nov 18, 2021
 D2L Submission for Group Plan and HTML/CSS Template Design
 
-### Nov 19, 2021
+#### Nov 19, 2021
 Employee Pages and Qualification Page's Content Due
 
-### Nov 24, 2021
+#### Nov 24, 2021
 Home Page, Past Project Page, and Contact Page's Content Due
 
-### Dec 03, 2021
+#### Dec 03, 2021
 Home Page's Javascript Due
 
-### Dec 09, 2021
+#### Dec 09, 2021
 Assignment 3 Due
