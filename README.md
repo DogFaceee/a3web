@@ -97,7 +97,7 @@
 - Group Plan D2L Submission
 
 #### Nov 16, 2021
-- HTML Template Draft Due before 08:00 PM
+- HTML Template Draft Due
 - Group Meeting for HTML and CSS Templates (08:00 PM)
 
 #### Nov 17, 2021
