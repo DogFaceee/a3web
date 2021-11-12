@@ -94,6 +94,7 @@
 
 #### Nov 12, 2021
 - Group Meeting for Group Plan and Workload Distribution (03:15PM)
+- Group Plan D2L Submission
 
 #### Nov 16, 2021
 - HTML Template Draft Due before 08:00 PM
@@ -103,8 +104,7 @@
 - CSS Template Draft Due
 
 #### Nov 18, 2021
-- Group Plan Due (D2L Submission)
-- HTML/CSS Template Design Due (D2L Submission)
+- HTML/CSS Template Design D2L Submission
 
 #### Nov 19, 2021
 - Employee Pages Content Due
@@ -119,4 +119,4 @@
 - Home Page Javascript Due
 
 #### Dec 09, 2021
-- Assignment 3 Due (D2L Submission)
+- Assignment 3 D2L Submission
