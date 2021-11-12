@@ -93,26 +93,30 @@
 # GEOM 103 Assignment 3 Time Line
 
 #### Nov 12, 2021
-Group Meeting for Group Plan and Workload Distribution (03:15PM)
+- Group Meeting for Group Plan and Workload Distribution (03:15PM)
 
 #### Nov 16, 2021
-HTML Template Draft Due before 08:00 PM
-Group Meeting for HTML and CSS Templates (08:00 PM)
+- HTML Template Draft Due before 08:00 PM
+- Group Meeting for HTML and CSS Templates (08:00 PM)
 
 #### Nov 17, 2021
-CSS Template Draft Due
+- CSS Template Draft Due
 
 #### Nov 18, 2021
-D2L Submission for Group Plan and HTML/CSS Template Design
+- Group Plan Due (D2L Submission)
+- HTML/CSS Template Design Due (D2L Submission)
 
 #### Nov 19, 2021
-Employee Pages and Qualification Page's Content Due
+- Employee Pages Content Due
+- Qualification Page Content Due
 
 #### Nov 24, 2021
-Home Page, Past Project Page, and Contact Page's Content Due
+- Home Page Content Due
+- Past Project Page Content Due
+- Contact Page Content Due
 
 #### Dec 03, 2021
-Home Page's Javascript Due
+- Home Page Javascript Due
 
 #### Dec 09, 2021
-Assignment 3 Due
+- Assignment 3 Due (D2L Submission)
