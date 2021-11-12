@@ -1,0 +1,24 @@
+/* style.css */
+/* Document Owner: Peggy Wong */
+/* Contributors: Carm Espinal, Kacy Hyndman, Tanvir Khan */
+/* Date Created: Nov 12, 2021 */
+/* Date Modified: Nov 12, 2021 */
+
+/* Specify the body style */
+/* Owner: Peggy Wong */
+/* Date: Nov 12, 2021 */
+body {
+    /* Specify the margin */
+    /* Source: https://www.w3schools.com/css/css_margin.asp */
+    margin: 0px;
+    /* Specify the background color */
+    /* Source: https://www.w3schools.com/cssref/pr_background-color.asp */
+    background-color: white;
+    /* Specify the font */
+    /* Source: https://www.w3schools.com/cssref/pr_font_font-family.asp */
+    font-family: Arial, Helvetica, sans-serif;
+    /* Specify the letter spacing between characters */
+    /* Source: https://www.w3schools.com/cssref/pr_text_letter-spacing.asp */
+    letter-spacing: 1px;
+}
+/* End Owner: Peggy Wong */
