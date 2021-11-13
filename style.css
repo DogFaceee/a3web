@@ -23,7 +23,7 @@ body {
 }
 /* End Owner: Peggy Wong */
 
-/* Specify the navigation bar style*/
+/* Specify the navigation bar style */
 /* Owner: Peggy Wong */
 /* Date: Nov 12, 2021 */
 /* Source: https://www.w3schools.com/css/css_navbar.asp and https://www.w3schools.com/css/css_navbar_horizontal.asp */
@@ -66,5 +66,13 @@ li a.active {
 li a:hover {
     background-color: rgb(25,25,25);
     border-bottom: 5px solid lightsteelblue;
+}
+/* End Owner: Peggy Wong */
+
+/* Specify the top margin of main section */
+/* Owner: Peggy Wong */
+/* Date: Nov 12, 2021 */
+main{
+    margin-top:100px;
 }
 /* End Owner: Peggy Wong */
