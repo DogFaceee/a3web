@@ -4,6 +4,14 @@
 /* Date Created: Nov 12, 2021 */
 /* Date Modified: Nov 12, 2021 */
 
+/* Owner: Kacy Hyndman
+    Date: Nov 16th, 2021
+    Source: https://www.w3schools.com/html/html_responsive.asp */
+* {
+    box-sizing: border-box;
+  }
+/* End Owner*/
+
 /* Specify the body style */
 /* Owner: Peggy Wong */
 /* Date: Nov 12, 2021 */
@@ -20,6 +28,12 @@ body {
     /* Specify the letter spacing between characters */
     /* Source: https://www.w3schools.com/cssref/pr_text_letter-spacing.asp */
     letter-spacing: 1px;
+    /* Owner: Kacy Hyndman
+    Date: Nov 16th, 2021
+    Source: https://www.w3schools.com/html/html_responsive.asp */
+    display: -webkit-flex;
+    display: flex;
+    /* End Owner: Kacy Hyndman */
 }
 /* End Owner: Peggy Wong */
 
@@ -28,12 +42,21 @@ body {
 /* Date: Nov 12, 2021 */
 /* Source: https://www.w3schools.com/css/css_navbar.asp and https://www.w3schools.com/css/css_navbar_horizontal.asp */
 nav{
+    /* Owner: Kacy Hyndman
+    Date: Nov 16th, 2021
+    Source: https://www.w3schools.com/html/html_responsive.asp */
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    padding: 20px;
+    /* End Owner: Kacy Hyndman*/
     /* Specify the background color */
     background-color: rgb(40,40,40);
     /* Fix the navigation bar to stay on top of the page */
     position: fixed;
     top: 0px;
     width: 100%;
+    
 }
 ul {
     /* Remove the bullets and the browser default settings */
@@ -73,9 +96,28 @@ li a:hover {
 /* Owner: Peggy Wong */
 /* Date: Nov 12, 2021 */
 main{
+    /* Owner: Kacy Hyndman
+    Date: Nov 16th, 2021
+    Source: https://www.w3schools.com/html/html_responsive.asp */
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    padding: 10px; 
+    /* End Owner: Kacy Hyndman */ 
     margin-top: 100px;
     margin-left: 50px;
     margin-right: 50px; 
-    margin-bottom: 50px;  
+    margin-bottom: 50px;
 }
 /* End Owner: Peggy Wong */
+
+ /* Owner: Kacy Hyndman
+    Date: Nov 16th, 2021
+    Source: https://www.w3schools.com/html/html_responsive.asp */
+@media (max-width: 600px) {
+    section {
+      -webkit-flex-direction: column;
+      flex-direction: column;
+    }
+  }
+/* End Owner: Kacy Hyndman */ 
