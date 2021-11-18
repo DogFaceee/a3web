@@ -2,7 +2,7 @@
 /* Author: Peggy Wong */
 /* Co-Author: Carm Espinal, Kacy Hyndman, Tanvir Khan */
 /* Date Created: Nov 12, 2021 */
-/* Date Modified: Nov 12, 2021 */
+/* Date Modified: Nov 18, 2021 */
 
 /* Owner: Kacy Hyndman
     Date: Nov 16th, 2021
@@ -12,10 +12,16 @@
   }
 /* End Owner: Kacy Hyndman*/
 
-/* Specify the body style */
-/* Owner: Peggy Wong */
-/* Date: Nov 12, 2021 */
 body {
+    /* Owner: Kacy Hyndman
+    Date: Nov 16th, 2021
+    Source: https://www.w3schools.com/html/html_responsive.asp */
+    display: -webkit-flex;
+    display: flex;
+    /* End Owner: Kacy Hyndman */
+
+    /* Owner: Peggy Wong */
+    /* Date: Nov 12, 2021 */
     /* Specify the margin */
     /* Source: https://www.w3schools.com/css/css_margin.asp */
     margin: 0px;
@@ -28,18 +34,10 @@ body {
     /* Specify the letter spacing between characters */
     /* Source: https://www.w3schools.com/cssref/pr_text_letter-spacing.asp */
     letter-spacing: 1px;
-    /* Owner: Kacy Hyndman
-    Date: Nov 16th, 2021
-    Source: https://www.w3schools.com/html/html_responsive.asp */
-    display: -webkit-flex;
-    display: flex;
-    /* End Owner: Kacy Hyndman */
+    /* End Owner: Peggy Wong */
 }
-/* End Owner: Peggy Wong */
 
 /* Specify the navigation bar style */
-/* Owner: Peggy Wong */
-/* Date: Nov 12, 2021 */
 /* Source: https://www.w3schools.com/css/css_navbar.asp and https://www.w3schools.com/css/css_navbar_horizontal.asp */
 nav{
     /* Owner: Kacy Hyndman
@@ -49,21 +47,31 @@ nav{
     -ms-flex: 1;
     flex: 1;
     /* End Owner: Kacy Hyndman*/
+
+    /* Owner: Peggy Wong */
+    /* Date: Nov 12, 2021 */
     /* Specify the background color */
     background-color: rgb(40,40,40);
     /* Fix the navigation bar to stay on top of the page */
     position: fixed;
     top: 0px;
     width: 100%;
-    
+    /* End Owner: Peggy Wong */
 }
+
 ul {
+    /* Owner: Peggy Wong */
+    /* Date: Nov 12, 2021 */
     /* Remove the bullets and the browser default settings */
     list-style-type: none;
     margin: 0px;
     padding: 0px;
+    /* End Owner: Peggy Wong */
 }
+
 li a{
+    /* Owner: Peggy Wong */
+    /* Date: Nov 12, 2021 */
     /* Display the links as block elements and have them to float next to each other */
     display: block;
     float: left;
@@ -78,7 +86,11 @@ li a{
     /* Add bottom border */
     /* Source: https://www.w3schools.com/howto/howto_css_navbar_border.asp */
     border-bottom: 5px solid transparent;
+    /* End Owner: Peggy Wong */
 }
+
+/* Owner: Peggy Wong */
+/* Date: Nov 12, 2021 */
 /* Specify the style of the link of active page so that the users are able to know which page they are on */
 li a.active {
     background-color:black;
@@ -91,9 +103,6 @@ li a:hover {
 }
 /* End Owner: Peggy Wong */
 
-/* Specify the top margin of main section */
-/* Owner: Peggy Wong */
-/* Date: Nov 12, 2021 */
 main{
     /* Owner: Kacy Hyndman
     Date: Nov 16th, 2021
@@ -102,13 +111,16 @@ main{
     -ms-flex: 3;
     flex: 3;
     padding: 10px; 
-    /* End Owner: Kacy Hyndman */ 
+    /* End Owner: Kacy Hyndman */
+
+    /* Owner: Peggy Wong */
+    /* Date: Nov 12, 2021 */
     margin-top: 100px;
     margin-left: 50px;
     margin-right: 50px; 
     margin-bottom: 50px;
+    /* End Owner: Peggy Wong */
 }
-/* End Owner: Peggy Wong */
 
  /* Owner: Kacy Hyndman
     Date: Nov 16th, 2021
@@ -118,5 +130,5 @@ main{
       -webkit-flex-direction: column;
       flex-direction: column;
     }
-  }
+}
 /* End Owner: Kacy Hyndman */ 
