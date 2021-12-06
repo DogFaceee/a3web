@@ -17,7 +17,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Insert external CSS style sheet -->
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="test.css">
+        <!-- Import image for navbar . Added by Kacy Hyndman on Dec 5th, 2021-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
         <!-- Use <title> tag to define the title of the HTML document -->
         <title>Fleming GIS Consulting</title>
         <!-- End Owner: Peggy Wong -->
@@ -25,20 +27,22 @@
     </head>
 
     <body>
-        <!-- NAVIGATION BAR.  Created By: Peggy Wong  /  Updated by Kacy Hyndman on Dec 1 2021 -->
-        <!-- Source: https://www.w3schools.com/tags/tag_nav.asp, https://www.w3schools.com/tags/tag_ul.asp and https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav -->
-        <nav>
-            <ul>
+	    <!-- NAVIGATION BAR.  Created By: Peggy Wong  /  Updated by Kacy Hyndman on Dec 1 2021  /  Updated by Kacy Hyndman on Dec 5 2021 -->
+        <!-- Source: https://www.w3schools.com/tags/tag_nav.asp, https://www.w3schools.com/tags/tag_ul.asp and https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav 
+		Source used for Dec 5th update: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp-->
+        <nav class="navbar" id="navBarJS">                   <!-- connect to js file -->
             <!-- Specify the class for active page's link -->
-            <li><a class="active" href="index.html">Home Page</a></li>
-            <li><a href="employee1.html">Employee 1</a></li>
-            <li><a href="employee2.html">Employee 2</a></li>
-            <li><a href="employee3.html">Employee 3</a></li>
-            <li><a href="employee4.html">Employee 4</a></li>
-            <li><a href="pastproject.html">Past Projects</a></li>
-            <li><a href="qualification.html">Qualifications</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
-            </ul>
+            <a class="active" href="index.html">Home Page</a>
+            <a href="employee1.html">Employee 1</a>
+            <a href="employee2.html">Employee 2</a>
+            <a href="employee3.html">Employee 3</a>
+            <a href="employee4.html">Employee 4</a>
+            <a href="pastproject.html">Past Projects</a>
+            <a href="qualification.html">Qualifications</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="javascript:void(0);" class="icon" onclick="navFunction()"> <!-- hamburger symbol to replace collapsed navbar -->
+                  <i class="fa fa-bars"></i>
+            </a>
         </nav>
 
         <main>
