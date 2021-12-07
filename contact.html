@@ -46,9 +46,18 @@
         </nav>
 
         <main>
-            <!-- Content created by Kacy Hyndman on Dec 1, 2021 -->
+            <!-- Content created by Kacy Hyndman on Dec 6, 2021. Source: https://www.w3schools.com/howto/howto_css_contact_form.asp
+                    Not much was changed here from source material because I barely understand php requirements!-->
             <h1>Get In Touch</h1>
-            <p>find out how to do those text input boxes that automatically email , than add fake phone number and fake street address below</p>
+            <div class="container">
+                <form action="action_page.php">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email" placeholder="Your email..">
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
             <h2>Find us on social media!</h2>
             <p>again, all fake links</p>
         </main>
