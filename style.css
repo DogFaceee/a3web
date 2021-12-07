@@ -11,7 +11,7 @@
 body {
     /* BODY SECTION / Created by: Peggy Wong on Nov 12, 2021  /  Updated by Kacy Hyndman on Dec 5th, 2021 */
     /* Specify the margin. Source: https://www.w3schools.com/css/css_margin.asp */
-    margin: 0px;
+    margin: 0;
     /* Specify the background color. Source: https://www.w3schools.com/cssref/pr_background-color.asp */
     background-color: #FCF8EA;
     /* Specify the font. Source: https://www.w3schools.com/cssref/pr_font_font-family.asp */
@@ -112,7 +112,7 @@ footer {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 70%;
+	width: 100%;
 	height: auto;
 	max-width: 500px;
     padding: 10px;
