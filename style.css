@@ -153,15 +153,16 @@ input[type=submit]:hover {
 
  /* Created by: Kacy Hyndman on Nov 16th, 2021. Source: https://www.w3schools.com/html/html_responsive.asp 
 	Updated by Kacy Hyndman on Dec 5th, 2021. Source: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp 
-	1200px was chosen due to the large area that the navbar takes up when pushed to two rows, ensuring the hamburger icon replaces it before it becomes too obtrusive*/
-@media screen and (max-width: 1200px) {
+	1200px was chosen due to the large area that the navbar takes up when pushed to two rows, ensuring the hamburger icon replaces it before it becomes too obtrusive
+    UPDATE: Dec 7, 2021-- Carm created a new employee directory page instead of the 4 employee pages. reduced the pixel size of when the navbar compacts to match this.*/
+@media screen and (max-width: 800px) {
   .navbar a:not(:first-child) {display: none;}
   .navbar a.icon {
     float: right;
     display: block;
   }
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 800px) {
   .navbar.responsive {position: relative;}
   .navbar.responsive .icon {
     position: absolute;
