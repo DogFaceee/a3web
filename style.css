@@ -95,6 +95,10 @@ p{
 	color: #41393D;
 	font-size: 100%
 }
+.centertext {
+    text-align:center;
+    color:#31495D;
+}
 
 /* Created by: Kacy Hyndman on Dec 1, 2021 */
 footer {
