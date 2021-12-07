@@ -120,6 +120,16 @@ footer {
 	max-width: 500px;
     padding: 10px;
 }
+/* Created by Kacy Hyndman on Dec 7, 2021*/
+#logo {
+    display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+    height: auto;
+    max-width: 1000px;
+    padding: 10px;
+}
 /* Created by Kacy Hyndman on Dec 6, 2021. Source: https://www.w3schools.com/howto/howto_css_contact_form.asp*/
 input[type=text], select, textarea {
     width: 100%;
