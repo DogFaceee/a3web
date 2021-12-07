@@ -107,6 +107,7 @@ footer {
     text-align: center;
 	color: white;
 }
+/* Created by Kacy Hyndman on Dec 6, 2021*/
 .centerPic {
 	display: block;
 	margin-left: auto;
@@ -115,6 +116,36 @@ footer {
 	height: auto;
 	max-width: 500px;
     padding: 10px;
+}
+/* Created by Kacy Hyndman on Dec 6, 2021. Source: https://www.w3schools.com/howto/howto_css_contact_form.asp*/
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #746C70;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+/* Created by Kacy Hyndman on Dec 6, 2021. Source: https://www.w3schools.com/howto/howto_css_contact_form.asp*/
+input[type=submit] {
+    background-color: #647C90;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+/* Created by Kacy Hyndman on Dec 6, 2021. Source: https://www.w3schools.com/howto/howto_css_contact_form.asp*/
+input[type=submit]:hover {
+    background-color: #31495D;
+}
+/* Created by Kacy Hyndman on Dec 6, 2021. Source: https://www.w3schools.com/howto/howto_css_contact_form.asp*/
+.container {
+    border-radius: 5px;
+    background-color: #E2DED0;
+    padding: 20px;
 }
 
  /* Created by: Kacy Hyndman on Nov 16th, 2021. Source: https://www.w3schools.com/html/html_responsive.asp 
