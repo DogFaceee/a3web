@@ -186,6 +186,7 @@ input[type=submit]:hover {
   }
 }
 
+/* Created by Carm Espinal on Dec 7, 2021. Source: https://www.w3schools.com/css/css_link.asp */
 a:link, a:visited {
     color: rgb(213, 174, 0);
     text-align: center;
