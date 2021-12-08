@@ -192,3 +192,15 @@ a:link, a:visited {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
   }
+  .employeepagelink {
+    background-color:red;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .employeepagelink {
+    background-color:aqua;
+  } 
