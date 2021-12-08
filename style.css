@@ -64,12 +64,12 @@ nav a{
 /* Specify the style of the link of active page so that the users are able to know which page they are on */
 nav a.active {
     background-color:black;
-    border-bottom: 5px solid steelblue;
+    border-bottom: 5px solid rgb(1, 113, 48);
 }
 /* Specify the style of the link on hover */
 nav a:hover {
     background-color: rgb(25,25,25);
-    border-bottom: 5px solid lightsteelblue;
+    border-bottom: 5px solid rgb(118, 177, 126);
 }
 
 main{
