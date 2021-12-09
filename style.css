@@ -18,6 +18,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     /* Specify the letter spacing between characters. Source: https://www.w3schools.com/cssref/pr_text_letter-spacing.asp */
     letter-spacing: 1px;
+    position: relative; 
+    min-height: 100vh;
 }
 
 nav{
@@ -77,7 +79,7 @@ main{
     margin-top: 100px;
     margin-left: 50px;
     margin-right: 50px; 
-    margin-bottom: 50px;
+    padding-bottom: 2.5rem;
 }
 
 /* Created By: Kacy Hyndman on Dec 6th, 2021 */
@@ -88,23 +90,32 @@ h1{
 }
 h2{
 	color: #183044;
+    font-weight: normal;
 	text-align: center;
 	font-size: 120%
 }
 p{
-	color: #41393D;
-	font-size: 100%
+	font-family: Helvetica, Arial, sans-serif;
+    color: #41393D;
+	font-size: 100%;
+    line-height: 1.5;
 }
+
 .centertext {
     text-align:center;
 }
 
 /* Created by: Kacy Hyndman on Dec 1, 2021 */
 footer {
+    left: 0;
+    bottom: 0; 
+    width: 100%;
 	background-color: #4E4F50;                 /* ADDED */
     padding: 10px;
     font-size: 60%;
+    position: absolute;
 }
+
 #footertext {
     /* Created by: Kacy Hyndman on Dec 1, 2021. Seperated from footer to override the p tag style when in the footer */
     text-align: center;
@@ -202,3 +213,22 @@ a:link, a:visited {
     border-radius: 20px;
   }
 
+img{
+    border-radius: 10%;
+}
+
+/* Owner: Peggy Wong */
+img.qualification{
+    display: block;
+    width: 600px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* End Owner: Peggy Wong */
+
+/* Owner: Peggy Wong */
+section{
+    padding-bottom: 40px;
+}
+/* End Owner: Peggy Wong */

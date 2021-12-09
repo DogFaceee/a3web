@@ -9,58 +9,71 @@
 <!-- HTML (-nav bar) by Carm Espinal-->
 <!-- Content by Kacy Hyndman-->
 <head>
-  <link rel="stylesheet" type="text/css" href="https://dogfaceee.github.io/a3web/style.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
   <!--Used HTML Head for the browser tab title.-->
   <title>Kacy | Fleming GIS Consulting</title>
+    <!-- Owner: Peggy Wong -->
+    <!-- Source: https://www.w3schools.com/html/html_charset.asp -->
+    <meta charset="UTF-8">
+    <!-- Added by Kacy Hyndman on Nov 17 2021-- Source: https://www.w3schools.com/html/html_responsive.asp -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Import image for navbar . Added by Kacy Hyndman on Dec 5th, 2021-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
 </head>
 
 <body>
 
 
-<!-- NAVIGATION BAR.  Created By: Peggy Wong  /  Updated by Kacy Hyndman on Dec 1 2021  /  Updated by Kacy Hyndman on Dec 5 2021 -->
-<!-- Source: https://www.w3schools.com/tags/tag_nav.asp, https://www.w3schools.com/tags/tag_ul.asp and https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav 
-Source used for Dec 5th update: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp-->
-<nav class="navbar" id="navBarJS">                   <!-- connect to js file -->
-  <!-- Specify the class for active page's link -->
-  <a href="index.html">Home Page</a>
-  <a class="active" href="employeedirectory.html">Our Team</a>
-  <a href="pastproject.html">Past Projects</a>
-  <a href="qualification.html">Qualifications</a>
-  <a href="contact.html">Contact Us</a>
-  <a href="javascript:void(0);" class="icon" onclick="navFunction()"> <!-- hamburger symbol to replace collapsed navbar -->
-    <i class="fa fa-bars"></i>
-  </a>
-  <script src="navFunction.js"></script>
-</nav>
-<main>
-<div class="employeeprofile">
-<h4 class="centertext">Employee Profile:</h4>
-<h1 class="centertext">Kacy Hyndman</h1>
-<img src="images/okayguy.jpg" alt="Image of Kacy at work" class="centerPic">
-<p>Really good at trying their best! I have experience in GIS starting from the Ecosystem Management Program at Fleming College in 2019, then in the Geographic Information Systems - Applications Specialist program also at Fleming College. 40 time olympic gold medalist in [redacted]. </p>
+  <!-- NAVIGATION BAR.  Created By: Peggy Wong  /  Updated by Kacy Hyndman on Dec 1 2021  /  Updated by Kacy Hyndman on Dec 5 2021 -->
+  <!-- Source: https://www.w3schools.com/tags/tag_nav.asp, https://www.w3schools.com/tags/tag_ul.asp and https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav 
+  Source used for Dec 5th update: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp-->
+  <nav class="navbar" id="navBarJS">                   <!-- connect to js file -->
+    <!-- Specify the class for active page's link -->
+    <a href="index.html">Home Page</a>
+    <a class="active" href="employeedirectory.html">Our Team</a>
+    <a href="pastproject.html">Past Projects</a>
+    <a href="qualification.html">Qualifications</a>
+    <a href="contact.html">Contact Us</a>
+    <a href="javascript:void(0);" class="icon" onclick="navFunction()"> <!-- hamburger symbol to replace collapsed navbar -->
+      <i class="fa fa-bars"></i>
+    </a>
+    <script src="navFunction.js"></script>
+  </nav>
 
-<h2>Skills</h2>
-<ul>
-  <!-- List of Employee's Qualifications:  -->
-  <li>Strong technological proficiency, including knowledge of ArcGIS, Microsoft Office (Excel, Word, and PowerPoint), and device operating systems</li>
-  <li>Knowledge of graphic design softwares including Adobe PhotoShop and Illustrator</li>
-  <li>Effective communication skills and de-escalation among individuals (evidenced by working at a call center dealing with high-stress situations)</li>
-</ul>
+  <main>
+    <section>
+    <div class="employeeprofile">
+      <h4 class="centertext">Employee Profile:</h4>
+      <h1 class="centertext">Kacy Hyndman</h1>
+      <img src="images/okayguy.jpg" alt="Image of Kacy at work" class="centerPic">
+      <p>Really good at trying their best! I have experience in GIS starting from the Ecosystem Management Program at Fleming College in 2019, then in the Geographic Information Systems - Applications Specialist program also at Fleming College. 40 time olympic gold medalist in [redacted]. </p>
+    </div>
+    </section>
+    <section>
+      <h2>Skills</h2>
+      <ul>
+        <!-- List of Employee's Qualifications:  -->
+        <li>Strong technological proficiency, including knowledge of ArcGIS, Microsoft Office (Excel, Word, and PowerPoint), and device operating systems</li>
+        <li>Knowledge of graphic design softwares including Adobe PhotoShop and Illustrator</li>
+        <li>Effective communication skills and de-escalation among individuals (evidenced by working at a call center dealing with high-stress situations)</li>
+      </ul>
+    </section>
 
-<h2>Attributes</h2>
-<ul>
-      <li>Organized, reliable, and professional attitude</li>
-      <li>Creative, evidenced by interests in photography and graphic design</li>
-      <li>Fast learner and skilled multitasker</li>
-</ul>  
-</div>
+    <section>
+      <h2>Attributes</h2>
+      <ul>
+            <li>Organized, reliable, and professional attitude</li>
+            <li>Creative, evidenced by interests in photography and graphic design</li>
+            <li>Fast learner and skilled multitasker</li>
+      </ul>  
+    </section>
 
-</main>
+  </main>
 
-<!-- Created by: Kacy Hyndman ON Dec 1, 2021 -->
-<footer>
-  <p id="footertext">This website was created by Carm Espinal, Kacy Hyndman, Tanvir Khan, & Peggy Wong for GEOM101, Fleming College GIS program, 2021</p>
-</footer>
+  <!-- Created by: Kacy Hyndman ON Dec 1, 2021 -->
+  <footer>
+    <p id="footertext">This website was created by Carm Espinal, Kacy Hyndman, Tanvir Khan, & Peggy Wong for GEOM101, Fleming College GIS program, 2021</p>
+  </footer>
 
 </body>
 </html>
